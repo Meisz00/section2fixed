@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gill Sans';
+    background-color: snow;
+}
+
+h1{
+    margin: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: serif;
+    
+}
+
+.button a{
+    background-color:rgb(211, 185, 152);
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px 100px 20px 100px;
+    color: black;
+    cursor : pointer;
+    display: grid;
+    max-width: 200px;
+    justify-content: center;
+}
+
+.button input{
+    background-color:rgb(211, 185, 152);
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px 100px 20px 100px;
+    color: black;
+    cursor : pointer;
+    display: grid;
+    max-width: 200px;
+    justify-content: center;
+    border-style: none;
+    height: auto;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    margin: 50px;
+    padding: 25px;
+    list-style-type: none;
+}
+
+table{
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+    display: grid;
+    justify-content: center;
+    border-style: none;
+}
+
+th{
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+td{
+    padding: 10px;
+}
+
+form{
+    width: 90%;
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+    padding: 25px;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: antiquewhite;
+    background: linear-gradient(rgb(235, 217, 195), white);
+}
+
+input{
+    height: 25px;
+    width: 350px;
+}
